@@ -1,13 +1,17 @@
-@media screen and (min-width: 601px)
+html
+{
+	background-color:black;
+}
+@media screen and (min-width: 801px)
 {
 	p
 	{
 
 		font-family: Franklin Gothic Heavy;
 		font-size: 24px;
-		margin:2%;
 		margin-left:4%;
 		margin-right:4%;
+		margin-bottom:4px;
 	}
 	.nav-text
 	{
@@ -52,6 +56,10 @@
 	.main
 	{
 		border-radius: 75px;
+		text-align: center;
+
+		width:1200px;
+		margin: -100px, auto;
 	}
 	.nav-text
 	{
@@ -63,9 +71,14 @@
 		background-image: url("./images/bg.jpg");
 		background-size: 100%;
 		background-repeat: no-repeat;
+		margin: 0, auto;
+	}
+	.nav-item
+	{
+		float: left;
 	}
 }
-@media screen and (max-width: 600px)
+@media screen and (max-width: 800px)
 {
 	body
 	{
@@ -85,6 +98,7 @@
 		margin:2%;
 		margin-left:4%;
 		margin-right:4%;
+		padding
 	}
 	.navbar
 	{
@@ -124,6 +138,7 @@
 	{
 		padding:5px;
 	}
+
 }
 a
 {
@@ -142,10 +157,6 @@ a:hover
   overflow: hidden;
 }
 
-.nav-item
-{
-	float: left;
-}
 .nav-text
 {
 	border-radius: 5px;
@@ -154,8 +165,8 @@ a:hover
 
 .bigtext
 {
-	width:50%;
-	height: 50%;
+	width:25%;
+	height: 6%;
 }
 .resmain
 {
@@ -166,6 +177,26 @@ a:hover
 	margin-right:5%;
 	height: 800px;
 	padding-top:30px;
+	background-opacity:0.8;
+}
+.intmain
+{
+	background-color:#27B5E1;
+	border-radius: 75px;
+	text-align:center;
+	margin-left:5%;
+	margin-right:5%;
+	height: 2500px;
+	background-opacity:0.8;
+}
+.homemain
+{
+	background-color:#27B5E1;
+	border-radius: 75px;
+	text-align:center;
+	margin-left:5%;
+	margin-right:5%;
+	height: 800px;
 	background-opacity:0.8;
 }
 .logo:hover
