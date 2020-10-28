@@ -1,55 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
-    <!-- Required meta tags -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon"
+      type="image/png"
+      href="./src/logo.png">
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="/images/favicon.ico?" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Brian Sostek</title>
+
   </head>
   <body>
-    <nav class="navbar">
-    	
-    	<ul>
-    		<li class="nav-item">
-				<a class="navbar-link activelogo" href="index.html"><img src="./images/logo.png" class="navbar-logo" ></a>
-			</li>
-			<li class="nav-item">
-				<a class="navbar-link nav-text" href="resume.html">resume</a>
-			</li>
-			<li class="nav-item">
-				<a class="navbar-link nav-text" href="interests.html">interests</a>
-			</li>
-			<li class="nav-item">
-				<a class="navbar-link nav-text" href="projects.html">projects</a>
-			</li>
-		</ul>
-	</nav>
-	<div class="homemain">
-		<img src="./images/fullname.png">
-		<ul class="links">
-			<li class="link-item">
-				<a target="_blank" class="link-a" href="https://github.com/briansostek"><img alt="git" class="logo" src="./images/git.png"></a>
-			</li>
-			<li class="link-item">
-				<a target="_blank"class="link-a" href="https://instagram.com/bsostek"><img alt="insta" class="logo" src="./images/insta.png"></a>
-			</li>
-			<li class="link-item">
-				<a target="_blank" class="link-a" href="https://linkedin.com/in/brian-sostek"><img class="logo" src="./images/lin.png"></a>
-			</li>
-			<li class="link-item">
-				<a href="mailto:bsostek99@gmail.com"><img class="logo" src="./images/email.png"></a>
-			</li>
-		</ul>
-	</div>
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="script.js" type="text/javascript"></script>
+
+
+    <div class="page">
+
+      <video autoplay muted id="video" class="slide fade">
+        <source src="./src/bgvid.MOV" alt="video"type="video/mp4">
+      </video>
+      <video autoplay muted id="video" class="slide fade">
+        <source src="./src/bgvid1.MOV" alt="video1"type="video/mp4">
+      </video>
+      <video autoplay muted id="video" class="slide fade">
+        <source src="./src/bgvid2.MOV" alt="video1"type="video/mp4">
+      </video>
+      <video autoplay muted id="video" class="slide fade">
+        <source src="./src/bgvid3.MOV" alt="video1"type="video/mp4">
+      </video>
+
+
+      <div class="sidebar">
+        <ul>
+          <li>
+            <img width="200px"src="./src/logo.png" alt="Logo">
+          </li>
+          <hr>
+          <li>
+        <a class="nav-link" href="index.html">    Home </a>
+          </li>
+          <hr>
+          <li>
+            <a class="nav-link" href="about.html"> About </a>
+          </li>
+          <hr>
+          <li>
+            <a class="nav-link" href="gallery.html"> Gallery </a>
+          </li>
+          <hr>
+          <li>
+          <a class="nav-link"href="projects.html">  Projects </a>
+          </li>
+          <hr>
+          <li class="dots">
+            <span class="dot"> </span>
+            <span class="dot"> </span>
+            <span class="dot"> </span>
+            <span class="dot"> </span>
+
+          </li>
+        </ul>
+      </div>
+
+    <div class="intro">
+      <h1 class="title">System.out.print("I am Brian Sostek");</h1>
+      <div class="meObject">
+        <code ng-non-bindable>
+          var me= <br>
+          {<br>
+          &nbsp&nbsp  firstName: "Brian",<br>
+          &nbsp&nbsp  lastName: "Sostek",<br>
+          &nbsp&nbsp  age: 19,<br>
+          &nbsp&nbsp  hometown: "Blue Bell, PA",<br>
+          &nbsp&nbsp  schools: ["University of Pittsburgh", "Wissahickon High School"]<br>
+          };<br>
+          me.describe();
+          </code>
+
+          <p>
+            OUTPUT-->
+            My name is Brian Sostek, and I'm a sophomore studying computer science at the
+             <a target="_blank" class="textlink" href="https://www.pitt.edu/">University of Pittsburgh</a>
+            in Pittsburgh, PA. <br> I was born and raised in a town about 40 minutes outside of Philadelphia named Blue Bell,
+             and attended <a target="_blank" class="textlink" href="http://www.wsdweb.org">Wissahickon High School</a>. At Wissahickon, I made
+             some amazing friends, but more importantly, I figured out what I was interested in.
+          </p>
+
+
+
+
+      </div>
+
+
+    </div>
+    </div>
   </body>
+  <script src="script.js" type="text/javascript">
+  </script>
 </html>
